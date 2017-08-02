@@ -46,7 +46,7 @@ Location: https://codeload.github.com/svgliese/blink/tar.gz/221b942355ada6b598db
 /usr/bin/install -m 0755 -D /home/ae/testpkg2/buildroot/output/build/blinkpkg-221b942355ada6b598db3d63c94c697b73433545/blink /home/ae/testpkg2/buildroot/output/target/usr/bin/blink
 /usr/bin/install -m 0755 -D /home/ae/testpkg2/buildroot/output/build/blinkpkg-221b942355ada6b598db3d63c94c697b73433545/S50blink /home/ae/testpkg2/buildroot/output/target/etc/init.d
 
-Then the 'blink' project ((https://github.com/svgliese/blink)) downloaded, compiled  and installed on the target directory.
+Then the 'blink' project ( https://github.com/svgliese/blink ) downloaded, compiled  and installed on the target directory.
 
 8. Write image ('ls -al output/images/sdcard.img -h')
 to the flash card (do not forget unmount 'sudo umount /dev/sdb1' before)
